@@ -1,2 +1,7 @@
 body{font-family: 'Ubuntu', sans-serif;}
 li{float:left; width:100px;}
+.item_menu{color: rgb(158, 40, 103);}
+#contenedor{background:#bbb ; width:100%; float: left; padding-left: 20px}
+.cuerpoimagen{width: 100%;float: left; background-color: blueviolet; height: 60px;}
+.centrar{text-align: center;}
+.Size_Redondear{border-radius: 200px;image-resolution: 200px;}
