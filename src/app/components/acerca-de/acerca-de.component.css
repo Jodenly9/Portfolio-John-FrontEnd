@@ -1,0 +1,12 @@
+.row{
+    padding: 10px;
+}
+div{
+    background-color: #a1b5cb;
+    text-align: left;
+}
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 25%;
+}
