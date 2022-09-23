@@ -2,11 +2,41 @@
     padding: 10px;
 }
 div{
-    background-color: #a1b5cb;
-    text-align: left;
+    background-color: #ebbae6;
+    text-align: center;
 }
 /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
     margin-top: 25%;
 }
+@media (min-width: 576px){  /*estilo foto de perfil*/
+    #fotoperfil{
+        position:absolute;
+        width: 12%;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px 3px rgb(160, 108, 156);
+        top: 540px;
+        left: 3%;
+    }
+}
+@media (max-width: 575px){
+    #fotoperfil{
+        position:absolute;
+        width: 25%;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px 3px rgb(160, 108, 156);
+        top: 560px;
+        left: 38%;
+    }
+}  /*Añadir más @media, según el width*/
+@media (max-width: 389px){
+    #fotoperfil{
+        position:absolute;
+        width: 26%;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px 3px rgb(160, 108, 156);
+        top: 620px;
+        left: 35%;
+    }
+} 
