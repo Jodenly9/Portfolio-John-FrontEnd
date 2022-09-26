@@ -1,3 +1,29 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sredes{
+    
+    margin-right: 0.5em;
+}
 #logoAP{
     width: 140px;
+}
+img{
+    width: 45px;
+    margin-right:5px;
+}
+.btn{
+    border-width: medium;
+}
+/*--Celular--*/
+@media (max-width:575px{
+    .container{ flex-direction: column;}
+    .sredes{
+       display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sredes img{ margin: 0.2em;}
 }
